@@ -44,12 +44,17 @@ git clone https://github.com/meriem-amrane/flask-sentiment-app.git
 cd flask-sentiment-app
 
 2. Create a Virtual Environment
+
 python -m venv venv
+
 source venv/bin/activate   # On Mac/Linux
+
 venv\Scripts\activate      # On Windows
 
-3. Install Dependencies
+4. Install Dependencies
+
 pip install -r requirements.txt
 
-4. Run the Application
+5. Run the Application
+
 python app.py
