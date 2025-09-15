@@ -1,24 +1,55 @@
-**📊 Flask Sentiment Analysis App
-**
-A simple Flask application that performs sentiment analysis (positive, negative, neutral) on text inputs using Natural Language Processing (NLP).
-It comes with both a web interface and a REST API for easy testing and integration.
+📊 Flask Sentiment Analysis App
 
-**🚀 Features
-**
-Web interface with a clean input form.
+A lightweight Flask web application that performs sentiment analysis on text inputs using Natural Language Processing (NLP) and Machine Learning.
+It provides both a web interface for interactive use and a REST API for seamless integration with external applications.
 
-Real-time prediction of text sentiment (positive, negative, neutral).
+🚀 Features
 
-REST API endpoint for external applications.
+🌐 Web Interface with a clean form for text input.
 
-Machine Learning model trained with Python & NLP libraries.
+⚡ Real-time Sentiment Prediction (Positive / Negative / Neutral).
 
-**🛠️ Tech Stack
-**
+🔌 REST API Endpoint for programmatic access.
+
+🤖 Pre-trained ML Model built with Python & NLP libraries.
+
+📊 Visualization Support (sentiment distribution on bulk uploads).
+
+🛠️ Tech Stack
+
 Backend: Flask (Python)
 
 Frontend: HTML, CSS, Bootstrap (Jinja2 templates)
 
 ML/NLP: scikit-learn, NLTK (or spaCy depending on model)
 
+Data Handling: Pandas, Pickle
+
 Environment: GitHub, Virtualenv
+
+📂 Project Structure
+flask-sentiment-app/
+│
+├── app.py                 # Main Flask application
+├── Models/                # Trained ML models (Pickle files)
+├── templates/             # HTML templates (Jinja2)
+├── static/                # CSS, JS, and images
+├── data/                  # Sample datasets for testing
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
+
+⚙️ Installation & Usage
+1. Clone the Repository
+git clone https://github.com/meriem-amrane/flask-sentiment-app.git
+cd flask-sentiment-app
+
+2. Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the Application
+python app.py
